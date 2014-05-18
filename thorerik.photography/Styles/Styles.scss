@@ -28,16 +28,14 @@ div.content {
     background: #444;
     height: 100%;
     padding-top: 5em;
-    padding-left: 1.2em;
+    padding-left: 1em;
     padding-right: 1.1em;
     box-shadow: -10px 0px 15px #000;
     p {
-        span {
-            font-variant: small-caps;
-            display: block;
-            &:after {
-                content: ":";
-            }
+        img {
+            width: 2em;
         }
     }
 }
+
+

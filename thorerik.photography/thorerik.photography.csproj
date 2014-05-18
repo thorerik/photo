@@ -17,6 +17,12 @@
     <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="icons\Aperture.png" />
+    <Content Include="icons\Camera.png" />
+    <Content Include="icons\Date.png" />
+    <Content Include="icons\Exposure.png" />
+    <Content Include="icons\Focal Length.png" />
+    <Content Include="icons\ISO.png" />
     <Content Include="Images\1.jpg" />
     <Content Include="Scripts\jquery-2.1.1.min.js" />
     <Content Include="index.html" />
