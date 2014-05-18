@@ -320,6 +320,7 @@
     <Content Include="Scripts\errors.json" />
     <Content Include="Scripts\version.json" />
     <Content Include="Styles\Styles.scss" />
+    <None Include="deploypack.pubxml" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
