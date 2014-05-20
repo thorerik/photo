@@ -37,13 +37,13 @@ window.onload = () => {
 
     $('#next').click(function (e) {
         var href = $('#next a').attr('href');
-        alert(href);
+        window.location.href = href;
         e.preventDefault();
     });
 
     $('#previous').click(function (e) {
         var href = $('#previous a').attr('href');
-        alert(href);
+        window.location.href = href;
         e.preventDefault();
     });
 
@@ -51,11 +51,11 @@ window.onload = () => {
         switch (e.which) {
         case 37: 
             var href = $('#previous a').attr('href');
-            alert(href);
+            window.location.href = href;
             break;
         case 39:
             var href = $('#next a').attr('href');
-            alert(href);
+            window.location.href = href;
             break;
         default: return;
         }
