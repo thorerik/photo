@@ -321,6 +321,9 @@
     <Content Include="Scripts\version.json" />
     <Content Include="Styles\Styles.scss" />
     <None Include="deploypack.pubxml" />
+    <Content Include="icons\Photoicons.woff">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
